@@ -1,0 +1,19 @@
+
+Refresh tokens are the credentials that can be used to acquire new access tokens.
+
+
+The lifetime of a refresh token is much longer compared to the lifetime of an access token.
+
+
+An access token is a string that identifies a user, an application, or a page. 
+The token includes information such as when the token will expire and which app created that token.
+
+First, it is necessary to acquire OAuth 2.0 client credentials from API console.
+
+Then, the access token is requested from the authorization server by the client.
+
+It gets an access token from the response and sends the token to the API that I wish to access.
+
+
+When current access tokens expire or become invalid, the authorization server provides refresh tokens 
+to the client to obtain new access token.

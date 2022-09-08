@@ -1,0 +1,6 @@
+
+query = `
+parents = '{1234}' and mimeType = 'application/pdf'
+or sharedWithMe and mimeType = 'audio/mpeg' 
+or name contains 'important'
+`

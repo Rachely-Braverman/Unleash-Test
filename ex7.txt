@@ -1,0 +1,10 @@
+provided endpoints:
+GET /users/{id} - Get a user by id
+POST /users - Create a new user
+
+
+◽ GET /users?ids=1,3,4... - list users by multiple ids
+
+◽ PUT /users/{id} - replace a user by id
+
+◽ POST /users/batch - create multiple users
